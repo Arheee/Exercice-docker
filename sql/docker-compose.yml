@@ -19,7 +19,7 @@ services:
     restart: always
     container_name: db-beers
     environment:
-      - MYSQL_ROOT_PASSWORD: root
-      - MYSQL_DATABASE: beer.sql
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: beer.sql
      
     
