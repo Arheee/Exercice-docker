@@ -6,9 +6,7 @@ services:
     image: python
     restart: always
     container_name: api-beers
-    build:
-      context: .
-      dockerfile: dockerfile
+    build: api/Dockerfile
     ports:
       - "80:5000"
     depends_on:
